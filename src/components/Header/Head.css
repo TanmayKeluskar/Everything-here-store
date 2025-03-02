@@ -1,0 +1,32 @@
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 20px 0 20px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 60px;
+    font-weight: 700;
+}
+
+.header-nav-items {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto-Regular";
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    font-weight: 400;
+    color: #000;
+}
+
+.header-nav-items:hover {
+    color: #D27777;
+    border-bottom: 2px solid #D27777;
+    transition-duration: .2s;
+}
